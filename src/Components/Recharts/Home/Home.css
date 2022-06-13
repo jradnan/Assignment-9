@@ -1,0 +1,16 @@
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.left-content{
+    width: 500px;
+    margin-top: 30px;
+   
+}
+.left-content p{
+    font-size: 25px;
+}
+.right-content img{
+    width: 500px;
+}

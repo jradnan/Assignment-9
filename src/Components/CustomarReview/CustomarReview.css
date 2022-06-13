@@ -1,0 +1,13 @@
+.customer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.review {
+    margin-left: 40px;
+}
+.writing{
+  margin: 15px 15px;
+}

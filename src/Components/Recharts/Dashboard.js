@@ -1,42 +1,42 @@
 import React from 'react';
 import { Legend,  PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart, } from 'recharts';
-import Recharts2 from './Recharts2/Recharts2';
-import './Recharts.css'
+import Recharts2 from './Dashboard2/Dashboard2';
+import './Dashboard.css'
 
 const Recharts = () => {
     const data = [
         {
-          "subject": "Math",
+          "subject": "Australia",
           "A": 120,
           "B": 110,
           "fullMark": 150
         },
         {
-          "subject": "Chinese",
+          "subject": "China",
           "A": 98,
           "B": 130,
           "fullMark": 150
         },
         {
-          "subject": "English",
+          "subject": "USA",
           "A": 86,
           "B": 130,
           "fullMark": 150
         },
         {
-          "subject": "Geography",
+          "subject": "Bangladesh",
           "A": 99,
           "B": 100,
           "fullMark": 150
         },
         {
-          "subject": "Physics",
+          "subject": "France",
           "A": 85,
           "B": 90,
           "fullMark": 150
         },
         {
-          "subject": "History",
+          "subject": "Malaysia",
           "A": 65,
           "B": 85,
           "fullMark": 150

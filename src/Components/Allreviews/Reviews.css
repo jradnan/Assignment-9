@@ -1,0 +1,14 @@
+.customer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.review {
+    margin-left: 40px;
+}
+.writing{
+  margin: 15px 15px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './CustomarReview.css'
 
 const CustomarReview = () => {
@@ -23,6 +24,15 @@ const CustomarReview = () => {
                 </div>
 
             </div>
+
+            <Link to='/reviews'> <div style={{padding:'50px 0px'}}> 
+                <button style={{padding:'5px 40px', marginTop:'20px', borderRadius:'8px', }} className='btn-success'>See All Reviews</button>
+            </div>
+            </Link>
+           
+
+
+
             
         </div>
     );

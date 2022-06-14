@@ -2,5 +2,10 @@
  text-decoration: none;
  margin: 0px 10px;
  font-size: 20px;
+ font-weight: 600;
+ color: black;
+}
+.menu{
+    margin-top: 20px;
 }
 

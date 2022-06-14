@@ -1,11 +1,13 @@
 .section-container{
     display: flex;
     justify-content: space-between;
-    margin: 0px 100px;
+    margin: 80px 100px;
+    background-color: aquamarine;
 }
 .left-content{
     width: 500px;
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-left: 80px;
    
 }
 .left-content p{

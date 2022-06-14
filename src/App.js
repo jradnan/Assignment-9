@@ -5,6 +5,7 @@ import Dashboard from './Components/Recharts/Dashboard';
 import Menu from './Components/Menu/Menu';
 import Reviews from './Components/Allreviews/Reviews';
 import NotFound from './Components/404 not found/NotFound';
+import Blog from './Components/CustomarReview/Blogs/Blog';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path='/' element={<Home></Home>}></Route>
       <Route path='Dashboard' element={<Dashboard></Dashboard>}></Route>
       <Route path='reviews' element={<Reviews></Reviews>}></Route>
+      <Route path='blog' element={<Blog></Blog>}></Route>
      </Routes>
     </div>
   );
